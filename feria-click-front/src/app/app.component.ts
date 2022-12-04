@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ViewContainerRef ,ViewChild} from '@angular/core';
+import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'feria-click-front';
+export class AppComponent{
+  
 }
