@@ -2,8 +2,8 @@ import { RowDataPacket } from "mysql2"
 
 export interface IUser extends RowDataPacket {
     id?: number
-    email: string
-    password: string
+    nombre: string
+    correo: string
+    contra: string
     admin: boolean
-    created_at: Date
   }

@@ -1,15 +1,7 @@
 import { UsuarioService } from './usuario.service';
-import { Controller, Get } from '@nestjs/common';
+import { Body, Controller, Get, Post } from '@nestjs/common';
+import { create } from 'domain';
+import { get } from 'http';
 
 @Controller('usuario')
-export class UsuarioController {
-
-    constructor(private usuarioService: UsuarioService){
-
-    }
-
-    @Get()
-    getUsuario() {
-        return null
-    }
-}
+export class UsuarioController {}
